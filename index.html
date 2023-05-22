@@ -15,34 +15,41 @@
 </head>
 
 <body>
-    <div class="container m-auto mt-5" style="width: 1000px;">
-        <input  type="text" readonly id="view" style="height: 50px; width: 100px;" placeholder="0">
-        <div>
-            <button onclick="" class="typo" >-</button>
-            <button onclick="input('÷')">÷</button>
-            <button onclick="input('+')">+</button>
-            <button onclick="input('*')">*</button>
-            <button onclick="input('-')">-</button>
-            <button onclick="input('7')">7</button>
-            <button onclick="input('8')">8</button>
-            <button onclick="input('9')">9</button>
-            <button onclick="input('4')">4</button>
-            <button onclick="input('5')">5</button>
-            <button onclick="input('6')">6</button>
-            <button onclick="input('1')">1</button>
-            <button onclick="input('2')">2</button>
-            <button onclick="input('3')">3</button>
-            <button onclick="input('0')">0</button>
-            <button onclick="input('.')">.</button>
-            <button onclick="clearout('AC')">AC</button>
-            <button onclick="clearDel('Del')">Del</button>
-            <button onclick="calculate('=')">=</button>
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-md">
+            <a class="navbar-brand bold" href="#">jsCalculator</a>
+        </div>
+    </nav> -->
+
+    <main id="bg-color-c">
+        <div class="m-auto contain-c" >
+            <div class="text-center">
+                <input type="text" readonly id="view" placeholder="0" class="text-end splend mt-4">
+            </div>
+            <div class="bolder text-center m-auto mt-4">
+                <button onclick="input('/')" class="btn-view">/</button>
+                <button onclick="input('+')" class="btn-view">+</button>
+                <button onclick="input('*')" class="btn-view">*</button>
+                <button onclick="input('-')" class="btn-view">-</button>
+                <button onclick="input('7')" class="btn-view">7</button>
+                <button onclick="input('8')" class="btn-view">8</button>
+                <button onclick="input('9')" class="btn-view">9</button>
+                <button onclick="input('4')" class="btn-view">4</button>
+                <button onclick="input('5')" class="btn-view">5</button>
+                <button onclick="input('6')" class="btn-view">6</button>
+                <button onclick="input('1')" class="btn-view">1</button>
+                <button onclick="input('2')" class="btn-view">2</button>
+                <button onclick="input('3')" class="btn-view">3</button>
+                <button onclick="input('0')" class="btn-view">0</button>
+                <button onclick="input('.')" class="btn-view">.</button>
+                <button onclick="clearout('AC')" class="btn-view">AC</button>
+                <button onclick="clearDel('Del')" class="btn-view">Del</button>
+                <button onclick="calculate('=')" class="btn-view1">=</button>
             </div>
         </div>
-        </main>
+    </main>
 
-
-        <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 
 </html>
