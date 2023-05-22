@@ -79,6 +79,9 @@
         padding: 10px;
         position: fixed;
     }
+    nav {
+        display: none;
+    }
 
     .btn-view {
         width: 35px;
